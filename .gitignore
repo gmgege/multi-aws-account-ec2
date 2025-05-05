@@ -1,0 +1,31 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.log
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# 本地密钥和配置
+id_rsa
+id_rsa.pub
+*.pem
+
+# Python缓存
+__pycache__/
+*.pyc
+
+# 编辑器/系统文件
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# 其他
+*.bak
+.* 

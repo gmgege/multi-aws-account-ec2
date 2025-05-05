@@ -14,4 +14,10 @@ variable "instance_type" {
   description = "EC2实例类型"
   type        = string
   default     = "t3.micro"
-} 
+}
+
+variable "aws_profile" {
+  description = "AWS CLI profile名称"
+  type        = string
+  default     = "default"
+}
